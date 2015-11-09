@@ -20,7 +20,6 @@ import com.gk.ginger.controller.AbstractController;
  * a type of WebApplicationContext is built and prepares a MockMvc instance for
  * use in test methods.
  * 
- * @author Matt Warman
  */
 @WebAppConfiguration
 public abstract class AbstractControllerTest extends AbstractTest {
