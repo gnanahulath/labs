@@ -4,6 +4,8 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+
+
 @XmlRootElement
 @Document(collection = "person")
 public class Person {
@@ -12,6 +14,9 @@ public class Person {
 	private Long id;
 	private String name;
 
+	/**
+	 * Instantiates a new person.
+	 */
 	public Person() {
 	}
 
